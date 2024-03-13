@@ -42,6 +42,7 @@ public class User
     @Column(nullable = false)
     public String accountdate;
 
+
     public User(String username, String password,String number,int price_charge)
     {
         Date date = new Date();

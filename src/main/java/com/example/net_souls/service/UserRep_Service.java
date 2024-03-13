@@ -52,6 +52,10 @@ public class UserRep_Service
         return userDao.findUserByUsername(username);
     }//end of method.
 
+    public User login(String username,String password)
+    {
+        return userDao.findUserByUsernameAndPassword(username,password);
+    }//end of method.
 
     //END OF FETCHING DATA.
 
